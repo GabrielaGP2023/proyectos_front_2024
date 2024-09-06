@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Repaso de HTML</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Consequuntur rem libero deleniti quibusdam minus vero minima 
+        beatae ipsam saepe? Nisi suscipit dignissimos vel pariatur repellendus perferendis tenetur fugit quo quaerat.
+    </p>
+    <ol>
+        <li>Lunes</li>
+        <li>Martes</li>
+        <li>Miércoles</li>
+        <li>Jueves</li>
+        <li>Viernes</li>
+        <li>Sábado</li>
+        <li>Domingo</li>
+    </ol>
+
+    <img src="imagenes/casa1.JPG" alt="Casa ejemplo" />
+
+    <table border="1px">
+        <tr>
+            <th>Etiqueta</th>
+            <th>Descripcion</th>
+        </tr>
+        <tr>
+            <td>html</td>
+            <td>etiqueta principal</td>
+        </tr>
+        <tr>
+            <td>title</td>
+            <td>titulo de la pestaña</td>
+        </tr>
+    </table>
+
+    <a href="https://es.wikipedia.org/wiki/Wikipedia:Portada"
+    target="_blank">Ir a Wikipedia</a>
+    <h3>Formulario de Contacto</h3>
+    <form action="respuesta.html" method="get">
+        <label for="correo_electronico">Correo electrónico: </label>
+        <input type="email" name="correo_electronico" id="correo_electronico"
+        placeholder="Escriba su correo electrónico">
+        <br>
+        <label for="telefono">Teléfono :</label>
+        <input type="tel" name="telefono" id="telefono" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
+        placeholder="000-000-000">
+        <br>
+        <label for="fecha_inicio">Fecha de Inicio: </label>
+        <input type="date" name="fecha_inicio" id="fecha_inicio">
+        <br>
+        <label for="nivel_estudios">Nivel de Estudios</label>
+        <select name="nivel_estudios" id="nivel_estudios">
+            <option value="ESO">ESO</option>
+            <option value="FP">FP</option>
+            <option value="Bachiller">Bachiller</option>
+            <option value="Licenciatura">Licenciatura</option>
+        </select>
+        <br>
+        <label for="lenguajes_programacion">Lenguajes de Programación :</label>
+        <input type="checkbox" name="java" id="java">java 
+        <input type="checkbox" name="python" id="python">python 
+        <input type="checkbox" name="JavaScript" id="JavaScript">JavaScript 
+        <input type="checkbox" name="Ruby" id="Ruby">Ruby 
+        <br>
+
+        <label for="genero">Genero :</label>
+        <input type="radio" name="genero" id="genero" value="Mujer"> Mujer
+        <input type="radio" name="genero" id="genero" value="Hombre"> Hombre
+        <input type="radio" name="genero" id="genero" value="Otro"> Otro
+        <br>
+        <input type="submit" value="Enviar Info">
+        <input type="reset" value="Borrar la información">
+        <br>
+        <h1>Ejemplo de tabla</h1>
+        <table border="1">
+            <tr>
+                <th>Categoria</th>
+                <th>Etiqueta</th>
+            </tr>
+            <tr>
+                <td rowspan="5">Formulario</td>
+                <td>Form</td>
+            </tr>
+            <tr>
+                
+                <td>button</td>
+            </tr>
+            <tr>
+                
+                <td>input</td>
+            </tr>
+            <tr>
+                
+                <td>Select</td>
+            </tr>
+            <tr>
+               
+                <td>TextArea</td>
+            </tr>
+            <tr>
+                <td rowspan="5">Tabla</td>
+                <td>table</td>
+            </tr>
+            <tr>
+               
+                <td>tr</td>
+            </tr>
+            <tr>
+               
+                <td>th</td>
+            </tr>
+            <tr>
+                
+                <td>td</td>
+            </tr>
+            <tr>
+                
+                <td>caption</td>
+            </tr>
+            <tr>
+                <td rowspan="5">Texto</td>
+                <td>b</td>
+            </tr>
+            <tr>
+               
+                <td>em</td>
+            </tr>
+            <tr>
+               
+                <td>i</td>
+            </tr>
+            <tr>
+                
+                <td>strong</td>
+            </tr>
+            <tr>
+               
+                <td>sub</td>
+            </tr>
+        </table>
+
+
+    </form>
+
+
+
+</body>
+</html>
